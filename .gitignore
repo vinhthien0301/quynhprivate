@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Output/Build directories
+dist/
+dist-ssr/
+build/
+out/
+.docusaurus/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS metadata files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swn
+*.swo
+
+# Local env files
+.env
+.env*
+
+# Serverless directories
+.serverless/
+
+# Cypress/Testing
+cypress/screenshots/
+cypress/videos/
+.nyc_output
+
+# Temp files
+tmp/
+temp/

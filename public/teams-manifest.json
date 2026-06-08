@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "c3e809f0-2fcd-4e8c-8f19-32dd6f3e1a8b",
+  "packageName": "com.quynhprivate.portal",
+  "developer": {
+    "name": "QuynhPrivate",
+    "websiteUrl": "https://quynhprivate.com",
+    "privacyUrl": "https://quynhprivate.com/privacy",
+    "termsOfUseUrl": "https://quynhprivate.com/terms"
+  },
+  "name": {
+    "short": "QuynhPrivate Portal",
+    "full": "QuynhPrivate Administration & Analytics Portal"
+  },
+  "description": {
+    "short": "Giao diện quản lý phân tích và dữ liệu QuynhPrivate",
+    "full": "Ứng dụng web tích hợp quản lý thống kê dữ liệu trực tuyến, hỗ trợ liên kết nhanh với Microsoft Teams trên Windows."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#5b5fc7",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "dashboard",
+      "name": "Portal Dashboard",
+      "contentUrl": "https://<ten-mien-web-app-da-deploy>.com/",
+      "websiteUrl": "https://<ten-mien-web-app-da-deploy>.com/",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "*.quynhprivate.com",
+    "<ten-mien-web-app-da-deploy>.com"
+  ]
+}
